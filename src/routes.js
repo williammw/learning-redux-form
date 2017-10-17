@@ -12,9 +12,7 @@ const Greeting =() =>{
 export default(
   <Route path="/" component={App} >
     <IndexRoute component={postIndex} />
-    <Route path="greet" component={Greeting} />
-    <Route path="greet2" component={Greeting} />
-    <Route path="greet4" component={Greeting} />
+   
   </Route>
 
 )
