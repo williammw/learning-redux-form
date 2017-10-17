@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 
-export default () => {
-  return (
-    <div>list of blogPost</div>
-  );
+class PostsIndex extends Component {
+
+  
+componentWillMount(){
+  console.log('call action createor to fetch post')
 }
+
+  render(){
+    return(
+      <div>Listsssss</div>
+    )
+  }
+}
+export default PostsIndex;
